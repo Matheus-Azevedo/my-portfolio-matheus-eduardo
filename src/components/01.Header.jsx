@@ -6,6 +6,15 @@ export default class Header extends Component {
   render() {
     return (
       <header className='header'>
+         <section className='minha-foto'>
+          <img id='minha-foto-id' src={ MyImage } alt="minha-foto" />
+          <h4>
+            Matheus Eduardo
+          </h4>
+          <h4>
+            Desenvolvedor Web em React
+          </h4>
+        </section>
         <section className='header-content'>
           <Link
             to="/"
@@ -25,15 +34,6 @@ export default class Header extends Component {
             >
             <button>COMENTÁRIO</button>
           </Link>
-        </section>
-        <section className='minha-foto'>
-          <img id='minha-foto-id' src={ MyImage } alt="minha-foto" />
-          <h4>
-            Matheus Eduardo
-          </h4>
-          <h4>
-            Desenvolvedor Web em React
-          </h4>
         </section>
       </header>
     )
