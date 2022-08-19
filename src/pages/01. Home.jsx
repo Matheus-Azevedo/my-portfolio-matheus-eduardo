@@ -7,7 +7,7 @@ import Footer from '../components/04.Footer';
 export default class Home extends Component {
   content = () => {
     return (
-      <div className='home-content content has-text-link'>
+      <div className='content has-text-link'>
         <h1 className='has-text-link'>Primeiramente seja Bem Vindo!</h1>
         <h3 className='has-text-link'>Me chamo Matheus Eduardo,</h3>
         <ul>
@@ -22,18 +22,18 @@ export default class Home extends Component {
         Rumo ao Full Stack!
         <br/>
         <div>
-          <img alt='icon-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="50" width="50"/>
-          <img alt='icon-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="50" width="50"/>
-          <img alt='icon-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="50" width="50"/>
-          <img alt='icon-4' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" height="50" width="50"/>
-          <img alt='icon-5' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height="50" width="50"/>
-          <img alt='icon-6' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="50" width="50"/>
-          <img alt='icon-7' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="50" width="50"/>
-          <img alt='icon-8' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="50" width="50"/>
-          <img alt='icon-9' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="50" width="50"/>
-          <img alt='icon-10' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="50" width="50"/>
-          <img alt='icon-11' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="50" width="50"/>
-          <img alt='icon-12' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bulma/bulma-plain.svg" height="50" width="50"/>
+          <img className='icons' alt='icon-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="50" width="50"/>
+          <img className='icons' alt='icon-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="50" width="50"/>
+          <img className='icons' alt='icon-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="50" width="50"/>
+          <img className='icons' alt='icon-4' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" height="50" width="50"/>
+          <img className='icons' alt='icon-5' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height="50" width="50"/>
+          <img className='icons' alt='icon-6' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="50" width="50"/>
+          <img className='icons' alt='icon-7' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="50" width="50"/>
+          <img className='icons' alt='icon-8' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="50" width="50"/>
+          <img className='icons' alt='icon-9' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="50" width="50"/>
+          <img className='icons' alt='icon-10' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="50" width="50"/>
+          <img className='icons' alt='icon-11' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="50" width="50"/>
+          <img className='icons' alt='icon-12' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bulma/bulma-plain.svg" height="50" width="50"/>
         </div>
       </div>
     )
