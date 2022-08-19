@@ -7,9 +7,10 @@ import Professional from './pages/03.Professional';
 import Comments from './pages/04.Comments';
 import NotFound from './pages/05.NotFound';
 
+
 function App() {
   return (
-    <BrowserRouter className="App">
+    <BrowserRouter>
       <Switch>
           <Route
             exact

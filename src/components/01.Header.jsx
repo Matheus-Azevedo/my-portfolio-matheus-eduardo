@@ -19,20 +19,20 @@ export default class Header extends Component {
           <Link
             to="/"
             >
-            <button>HOME</button>
+            <button className="button is-link">HOME</button>
           </Link>
           <Link
             to="/About"
             >
-            <button>SOBRE</button>
+            <button className="button is-link">SOBRE</button>
           </Link><Link
             to="/Professional"
             >
-            <button>PROFISSONAL</button>
+            <button  className="button is-link">PROFISSONAL</button>
           </Link><Link
             to="/Comment"
             >
-            <button>COMENTÁRIO</button>
+            <button className="button is-link">COMENTÁRIO</button>
           </Link>
         </section>
       </header>

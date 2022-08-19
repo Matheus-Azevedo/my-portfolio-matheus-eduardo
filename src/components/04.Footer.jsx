@@ -4,10 +4,23 @@ export default class Footer extends Component {
   render() {
     return (
       <footer className='footer'>
-        04.Footer
-        <p>
-          Lorem ipsum enim eu nunc sociosqu augue elementum malesuada et risus, auctor nec morbi duis iaculis rhoncus eu fermentum at, molestie venenatis porttitor pulvinar imperdiet consectetur aptent torquent etiam. tellus velit et quisque consectetur molestie netus ad rutrum, adipiscing senectus pretium quisque enim eu fames rhoncus dolor, ligula scelerisque porttitor aliquam diam porta maecenas.  
-        </p>      
+        <div className='contact-content'>
+          <div>
+            <a href = "https://mayarafurtado.jp@gmail.com">
+              <img className='contact-img' src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt='google' target="_blank" />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/matheus-eduardo-b06289221" target="blank">
+              <img className='contact-img' src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt='linkedIn' target="_blank" />
+            </a>
+          </div>
+          <div>
+            <a href="https://github.com/Matheus-Azevedo" target="blank">
+              <img className='contact-img' src="https://img.shields.io/badge/-GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt='github' target="_blank" />
+            </a>
+          </div>
+        </div>     
       </footer>
     )
   }

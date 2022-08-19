@@ -7,7 +7,7 @@ import Footer from '../components/04.Footer';
 export default class Professional extends Component {
   render() {
     return (
-      <div className="high-container">
+      <div className="high-container background-img">
         <Header />
         <Main />
         <Aside />
