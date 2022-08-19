@@ -2,7 +2,6 @@
   padding: 0px;
   margin: 0;
   box-sizing: border-box;
-  color: hsl(217, 71%, 53%)
 }
 
 p {
@@ -131,5 +130,5 @@ button:hover {
 }
 
 .home-content {
-  text-align: justify;
+  text-align: ;
 }
