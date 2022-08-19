@@ -10,7 +10,6 @@ export default class Home extends Component {
       <div className='content has-text-link'>
         <h1 className='has-text-link'>Primeiramente seja Bem Vindo!</h1>
         <h3 className='has-text-link'>Me chamo Matheus Eduardo,</h3>
-        <ul>
           <li>Sou bacharelado em <strong className='has-text-link'>Ciência da Computação</strong> com <strong className='has-text-link'>MBA Gestão Empresarial</strong>;</li>
           <br/>
           <li>Atuei na área de <strong className='has-text-link'>Logística e Segurança Privada</strong> como operador de campo da transportadora multinacional Brink's, em diferentes funções tais como a manutenção técnica em cofres eletrônicos e chefe de guarnição;</li>
@@ -18,10 +17,9 @@ export default class Home extends Component {
           <li>Todo este background me deu um conhecimento bastante diversificado sobre a indústria e insights poderosos para aplicação de tecnologias;</li>
           <br/>
           <li>Hoje faço parte do corpo estudantil da <strong className='has-text-link'>Trybe</strong> e procuro desenvolver hards skills em Desenvolvimento Web para reforçar meu expertise e promover soluções;</li>
-        </ul>
         Rumo ao Full Stack!
         <br/>
-        <div>
+        <div className='icons-content'>
           <img className='icons' alt='icon-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="50" width="50"/>
           <img className='icons' alt='icon-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="50" width="50"/>
           <img className='icons' alt='icon-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="50" width="50"/>
