@@ -10,7 +10,7 @@ import NotFound from './pages/05.NotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename={process.env.PUBLIC_URL}>
       <Switch>
           <Route
             exact

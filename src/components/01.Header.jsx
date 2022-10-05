@@ -12,7 +12,7 @@ export default class Header extends Component {
             Matheus Eduardo
           </h4>
           <h4>
-            Desenvolvedor Web em React
+            Desenvolvedor React
           </h4>
         </section>
         <section className='header-content'>
