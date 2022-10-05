@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/your-app-name/static/css/main.96d78141.css",
-    "main.js": "/your-app-name/static/js/main.49c12da1.js",
-    "static/js/787.8fc85489.chunk.js": "/your-app-name/static/js/787.8fc85489.chunk.js",
-    "static/media/foto.png": "/your-app-name/static/media/foto.0e7c3ae99758b154b764.png",
-    "index.html": "/your-app-name/index.html",
-    "main.96d78141.css.map": "/your-app-name/static/css/main.96d78141.css.map",
-    "main.49c12da1.js.map": "/your-app-name/static/js/main.49c12da1.js.map",
-    "787.8fc85489.chunk.js.map": "/your-app-name/static/js/787.8fc85489.chunk.js.map"
+    "main.css": "/my-portfolio-matheus-eduardo/static/css/main.96d78141.css",
+    "main.js": "/my-portfolio-matheus-eduardo/static/js/main.9a746c36.js",
+    "static/js/787.8fc85489.chunk.js": "/my-portfolio-matheus-eduardo/static/js/787.8fc85489.chunk.js",
+    "static/media/foto.png": "/my-portfolio-matheus-eduardo/static/media/foto.0e7c3ae99758b154b764.png",
+    "index.html": "/my-portfolio-matheus-eduardo/index.html",
+    "main.96d78141.css.map": "/my-portfolio-matheus-eduardo/static/css/main.96d78141.css.map",
+    "main.9a746c36.js.map": "/my-portfolio-matheus-eduardo/static/js/main.9a746c36.js.map",
+    "787.8fc85489.chunk.js.map": "/my-portfolio-matheus-eduardo/static/js/787.8fc85489.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96d78141.css",
-    "static/js/main.49c12da1.js"
+    "static/js/main.9a746c36.js"
   ]
 }
