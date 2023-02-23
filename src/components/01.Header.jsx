@@ -7,16 +7,16 @@ export default class Header extends Component {
     return (
       <header className='header'>
          <section className='minha-foto'>
-          <img id='minha-foto-id' src={ MyImage } alt="minha-foto" />
-          <h4>
-            Matheus Eduardo
-          </h4>
-          <h4>
-            Desenvolvedor Backend
-          </h4>
-          <h4>
-            IBM Z Xplore Advanced
-          </h4>
+            <img id='minha-foto-id' src={ MyImage } alt="minha-foto" />
+            <h4>
+              Matheus Eduardo
+            </h4>
+            <h4>
+              Desenvolvedor Backend
+            </h4>
+            <h4>
+              IBM Z Xplore Advanced
+            </h4>
         </section>
         <section className='header-content'>
           <Link
@@ -25,17 +25,17 @@ export default class Header extends Component {
             <button className="button is-link">HOME</button>
           </Link>
           <Link
-            to="/About"
+            to="/about"
             >
             <button className="button is-link">SOBRE</button>
           </Link><Link
-            to="/Professional"
+            to="/academic"
             >
-            <button  className="button is-link">PROFISSONAL</button>
+            <button  className="button is-link">ACADÊMICO</button>
           </Link><Link
-            to="/Comment"
+            to="/projects"
             >
-            <button className="button is-link">COMENTÁRIO</button>
+            <button className="button is-link">PROJETOS</button>
           </Link>
         </section>
       </header>

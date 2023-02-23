@@ -115,10 +115,13 @@ button:hover {
 }
 
 .aside {
+  display: flex;
   opacity: 0.8;
   grid-area: aside;
   padding: 15px;
-  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  background-color: #485fc7;;
 }
 
 .footer {
