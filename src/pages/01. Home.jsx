@@ -3,35 +3,53 @@ import Header from '../components/01.Header';
 import Main from '../components/02.Main';
 import Aside from '../components/03.Aside';
 import Footer from '../components/04.Footer';
+import { homeInformation01, homeInformation02, homeInformation03 } from '../database/01.home.info';
 
 export default class Home extends Component {
   content = () => {
     return (
-      <div className='content has-text-link'>
-        <h1 className='has-text-link'>Primeiramente seja Bem Vindo!</h1>
-        <h3 className='has-text-link'>Me chamo Matheus Eduardo,</h3>
-          <li>Sou bacharelado em <strong className='has-text-link'>Ciência da Computação</strong> com <strong className='has-text-link'>MBA Gestão Empresarial</strong>;</li>
-          <br/>
-          <li>Atuei na área de <strong className='has-text-link'>Logística e Segurança Privada</strong> como operador de campo da transportadora multinacional Brink's, em diferentes funções tais como a manutenção técnica em cofres eletrônicos e chefe de guarnição;</li>
-          <br/>
-          <li>Todo este background me deu um conhecimento bastante diversificado sobre a indústria e insights poderosos para aplicação de tecnologias;</li>
-          <br/>
-          <li>Hoje faço parte do corpo estudantil da <strong className='has-text-link'>Trybe</strong> e procuro desenvolver hards skills em Desenvolvimento Web para reforçar meu expertise e promover soluções;</li>
-        Rumo ao Full Stack!
+      <div className='content has-text-link home-content'>
+        <div>
+          <h1 className='title is-3 has-text-link'>Primeiramente seja bem vindo!</h1>
+          <h3 className='title is-5 has-text-link'>Me chamo Matheus Eduardo</h3>
+            { homeInformation01 }
+            <br/>
+            { homeInformation02 }
+            <br/>  
+            { homeInformation03 }
+        </div>
         <br/>
-        <div className='icons-content'>
-          <img className='icons' alt='icon-1' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="50" width="50"/>
-          <img className='icons' alt='icon-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="50" width="50"/>
-          <img className='icons' alt='icon-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="50" width="50"/>
-          <img className='icons' alt='icon-4' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" height="50" width="50"/>
-          <img className='icons' alt='icon-5' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height="50" width="50"/>
-          <img className='icons' alt='icon-6' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="50" width="50"/>
-          <img className='icons' alt='icon-7' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="50" width="50"/>
-          <img className='icons' alt='icon-8' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="50" width="50"/>
-          <img className='icons' alt='icon-9' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="50" width="50"/>
-          <img className='icons' alt='icon-10' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="50" width="50"/>
-          <img className='icons' alt='icon-11' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="50" width="50"/>
-          <img className='icons' alt='icon-12' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bulma/bulma-plain.svg" height="50" width="50"/>
+        <div className='stack-content'>
+          <h3 className='title is-3 has-text-link'>STACKS</h3>
+          <h3 className='title is-5 has-text-link'>Primária</h3>
+            <div className='icons-content'>          
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original-wordmark.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="50" width="50"/>
+            </div>
+          <h3 className='title is-5 has-text-link'>Secundária</h3>
+            <div className='icons-content'>          
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bulma/bulma-plain.svg" height="50" width="50"/>
+              <img className='icons' alt='icon-tool' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="50" width="50"/>
+            </div>
         </div>
       </div>
     )
@@ -41,7 +59,7 @@ export default class Home extends Component {
     return (
       <div className="high-container background-img">
         <Header />
-        <Main homeContent={ this.content() } />
+        <Main content={ this.content() } />
         <Aside />
         <Footer />
       </div>

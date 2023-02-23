@@ -12,7 +12,10 @@ export default class Header extends Component {
             Matheus Eduardo
           </h4>
           <h4>
-            Desenvolvedor React
+            Desenvolvedor Backend
+          </h4>
+          <h4>
+            IBM Z Xplore Advanced
           </h4>
         </section>
         <section className='header-content'>

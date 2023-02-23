@@ -12,9 +12,18 @@ button:hover {
   box-shadow: 0 3px 2em white;
 }
 
+.home-content {
+  text-align: center;
+}
+
+.stack-content {
+  text-align: center;
+}
+
 .contact-content {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 10px;
 }
 
@@ -114,10 +123,19 @@ button:hover {
 
 .footer {
   background-color: transparent;
+  height: 300px;
   grid-area: footer;
   padding: 10px;
   display: flex;
   justify-content: center;
+}
+
+.footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
 }
 
 .not-found {
