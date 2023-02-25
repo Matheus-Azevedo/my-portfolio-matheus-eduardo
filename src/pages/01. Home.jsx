@@ -8,10 +8,10 @@ import { homeInformation01, homeInformation02, homeInformation03 } from "../data
 export default class Home extends Component {
   content = () => {
     return (
-      <div className="content has-text-link home-content">
+      <section className="content has-text-link home-content">
         <div>
           <h1 className="title is-3 has-text-link">Primeiramente seja bem vindo!</h1>
-          <h3 className="title is-5 has-text-link">Me chamo Matheus Eduardo</h3>
+          <h3 className="title is-4 has-text-link">Me chamo Matheus Eduardo</h3>
             { homeInformation01 }
             <br/>
             { homeInformation02 }
@@ -21,7 +21,7 @@ export default class Home extends Component {
         <br/>
         <div className="stack-content">
           <h3 className="title is-3 has-text-link">STACKS</h3>
-          <h3 className="title is-5 has-text-link">Primária</h3>
+          <h3 className="title is-4 has-text-link">Primária</h3>
             <div className="icons-content">          
               <img className="icons" alt="icon-tool" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" height="50" width="50"/>
               <img className="icons" alt="icon-tool" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="50" width="50"/>
@@ -40,7 +40,7 @@ export default class Home extends Component {
               <img className="icons" alt="icon-tool" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="50" width="50"/>
               <img className="icons" alt="icon-tool" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="50" width="50"/>
             </div>
-          <h3 className="title is-5 has-text-link">Secundária</h3>
+          <h3 className="title is-4 has-text-link">Secundária</h3>
             <div className="icons-content">          
               <img className="icons" alt="icon-tool" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="50" width="50"/>
               <img className="icons" alt="icon-tool" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="50" width="50"/>
@@ -51,7 +51,7 @@ export default class Home extends Component {
               <img className="icons" alt="icon-tool" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="50" width="50"/>
             </div>
         </div>
-      </div>
+      </section>
     )
   }
   

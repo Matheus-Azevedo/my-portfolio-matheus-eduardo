@@ -12,6 +12,40 @@ button:hover {
   box-shadow: 0 3px 2em white;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
+.imagens-style {
+  width: 500px;
+  border: 2px solid #485fc7;
+  border-radius: 5px;
+}
+
+.certificados-style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects-list-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-box {
+  width: 120px;
+  height: 35px;
+}
+
 .home-content {
   text-align: center;
 }
@@ -23,13 +57,12 @@ button:hover {
 .contact-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 10px;
+  gap: 30px;
 }
 
 .contact-content .contact-img {
-  width: 125px;
-  height: 40px;
+  width: 180px;
+  height: 60px;
   border-radius: 5px;
 }
 

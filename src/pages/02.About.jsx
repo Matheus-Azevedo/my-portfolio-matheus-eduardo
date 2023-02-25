@@ -10,8 +10,8 @@ import { aboutInformation01, aboutInformation02, aboutInformation03, aboutInform
 export default class About extends Component {
   content = () => {
     return (
-      <div className="content has-text-link">
-        <h1 className="title is-3 has-text-link">Um pouco sobre mim</h1>
+      <section className="content has-text-link">
+        <h1 className="title is-3 has-text-link text-align-center">Um pouco sobre mim...</h1>
         <div>
           { aboutInformation01 }
         </div>
@@ -28,7 +28,7 @@ export default class About extends Component {
           { aboutInformation04 }
           <figure>
             <br />
-            <img id="brinks-photo" src={ BrinksPhoto } alt="brinks"  width={ 500 } height={ 500 } />
+            <img id="brinks-photo" className="imagens-style" src={ BrinksPhoto } alt="brinks" />
             <figcaption text-align="center">Fonte: <a href="https://revistasegurancaeletronica.com.br/brinks-faz-lancamento-global-focado-em-pequenos-varejistas/">link para referência</a></figcaption>
           </figure>
         </div>
@@ -53,11 +53,11 @@ export default class About extends Component {
           { aboutInformation09 }
           <figure>
             <br />
-            <img id="my-home-officer" src={ MyHomeOfficer } alt="home-officer" width={ 500 } height={ 500 } />
+            <img id="my-home-officer" className="imagens-style" src={ MyHomeOfficer } alt="home-officer" />
             <figcaption>Fonte: Acervo pessoal - Meu home officer</figcaption>
           </figure>
         </div>
-      </div>
+      </section>
     )
   }
 
