@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/my-portfolio-matheus-eduardo/static/css/main.5d181485.css",
-    "main.js": "/my-portfolio-matheus-eduardo/static/js/main.98e240b0.js",
+    "main.css": "/my-portfolio-matheus-eduardo/static/css/main.a04da393.css",
+    "main.js": "/my-portfolio-matheus-eduardo/static/js/main.f0d54624.js",
     "static/js/787.8fc85489.chunk.js": "/my-portfolio-matheus-eduardo/static/js/787.8fc85489.chunk.js",
+    "static/media/certificado01.jpg": "/my-portfolio-matheus-eduardo/static/media/certificado01.82537dac338c132f089e.jpg",
+    "static/media/certificado03.jpg": "/my-portfolio-matheus-eduardo/static/media/certificado03.13b174ee2ffab6669b5c.jpg",
     "static/media/foto.png": "/my-portfolio-matheus-eduardo/static/media/foto.0e7c3ae99758b154b764.png",
+    "static/media/certificado05.png": "/my-portfolio-matheus-eduardo/static/media/certificado05.e312cc7b42d7a01d548b.png",
+    "static/media/certificado06.png": "/my-portfolio-matheus-eduardo/static/media/certificado06.4b8d0322348a89757d22.png",
+    "static/media/certificado02.jpeg": "/my-portfolio-matheus-eduardo/static/media/certificado02.4ab45a64e4ec92e863a4.jpeg",
     "static/media/my-home-officer.jpeg": "/my-portfolio-matheus-eduardo/static/media/my-home-officer.c9c6fa0f30b49d67c874.jpeg",
+    "static/media/certificado04.png": "/my-portfolio-matheus-eduardo/static/media/certificado04.675b628bb4918eaaf398.png",
+    "static/media/certificado07.png": "/my-portfolio-matheus-eduardo/static/media/certificado07.2c60ebebeaa2e22248ff.png",
     "static/media/brinks.jpg": "/my-portfolio-matheus-eduardo/static/media/brinks.69cbdd1e9404bc9f5f32.jpg",
     "index.html": "/my-portfolio-matheus-eduardo/index.html",
-    "main.5d181485.css.map": "/my-portfolio-matheus-eduardo/static/css/main.5d181485.css.map",
-    "main.98e240b0.js.map": "/my-portfolio-matheus-eduardo/static/js/main.98e240b0.js.map",
+    "main.a04da393.css.map": "/my-portfolio-matheus-eduardo/static/css/main.a04da393.css.map",
+    "main.f0d54624.js.map": "/my-portfolio-matheus-eduardo/static/js/main.f0d54624.js.map",
     "787.8fc85489.chunk.js.map": "/my-portfolio-matheus-eduardo/static/js/787.8fc85489.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d181485.css",
-    "static/js/main.98e240b0.js"
+    "static/css/main.a04da393.css",
+    "static/js/main.f0d54624.js"
   ]
 }
